@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_marginBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/principalllcolor"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nombredelpack"
+                    android:background="@color/transparent"
+                    android:textColor="@color/White"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:text="Prueba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll4color2"
+                android:gravity="center"
+                android:weightSum="16"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:gravity="center"
+                    android:text="RECIBE AL MES 6"
+                    android:textColor="@color/White"
+                    android:layout_weight="10"
+                    android:textSize="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:weightSum="6"
+                    android:layout_weight="6"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="DESCUENTO DE"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:textSize="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/White"
+                        android:id="@+id/descuentoendinero"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:textSize="25dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#be170e"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/recibesincosto"
+                    android:text=""
+                    android:textColor="#f9ff03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/White"
+                    android:id="@+id/nummegas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="20"
+                android:background="#ccff34"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="95dp">
+                <LinearLayout
+                    android:id="@+id/llforuno"
+                    android:layout_weight="7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:id="@+id/tv4cosaverdeuno"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/idlldosytres"
+                    android:layout_weight="13"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="15dp"
+                        android:id="@+id/tv4cosaverdedos"
+                        android:layout_margin="5dp"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:textSize="12dp"
+                        android:gravity="center"
+                        android:id="@+id/tv4cosaverdetres"
+                        android:layout_margin="5dp"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/megasyano"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textColor="@color/Orange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_wifi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/textforwifi"
+                            android:textSize="20dp"
+                            android:background="@color/Yellow"
+                            android:textColor="@color/Red"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_telephone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:textSize="17dp"
+                            android:text="1 Linea"
+                            android:background="@color/White"
+                            android:textColor="#3b4458"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/teles"
+                            android:textSize="17dp"
+                            android:background="@color/White"
+                            android:textColor="#3b4458"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/canales"
+                        android:textAlignment="textStart"
+                        android:textColor="#f30e92"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/contratar"
+                        android:layout_marginBottom="10dp"
+                        android:background="#3ed54b"
+                        android:textColor="@color/White"
+                        android:text="Quiero contratar"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#3b4458"
+                        android:gravity="center"
+                        android:text="PRECIO AL CONTRATAR"
+                        android:textColor="@color/White"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/preciodelista"
+                        android:gravity="center"
+                        android:textColor="@color/Gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precioprontopago"
+                            android:textColor="#f30e92"
+                            android:textStyle="bold"
+                            android:gravity="end|center"
+                            android:textSize="25dp"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:textColor="#f30e92"
+                            android:text="Precio pronto pago"
+                            android:textAlignment="center"
+                            android:textSize="14dp"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="PRECIO DE PLAN AL MES 6"
+                        android:textAllCaps="true"
+                        android:textColor="@color/Purple"
+                        android:background="@color/Yellow"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"/>
+
+                    <TextView
+                        android:id="@+id/preciodelista2"
+                        android:gravity="center"
+                        android:textColor="@color/Gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:weightSum="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precioprontopago2"
+                            android:textColor="@color/Gray"
+                            android:textStyle="bold"
+                            android:gravity="end|center"
+                            android:textSize="25dp"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:textColor="@color/Gray"
+                            android:text="Precio pronto pago"
+                            android:textAlignment="center"
+                            android:textSize="14dp"
+                            android:layout_weight="5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

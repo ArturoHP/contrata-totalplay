@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "149840923225",
+    "firebase_url": "https://contrata-totalplay.firebaseio.com",
+    "project_id": "contrata-totalplay",
+    "storage_bucket": "contrata-totalplay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149840923225:android:6b43e6482fb6c9bf2d7f48",
+        "android_client_info": {
+          "package_name": "com.app.contratatotalplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149840923225-0erdp9bm39if5269rmk2n02h5uaqfrbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.contratatotalplay",
+            "certificate_hash": "bca94b3336f94ab97cccc9852a91e051657e9a85"
+          }
+        },
+        {
+          "client_id": "149840923225-10u0nlcnqmstsovq8jfh1muec5dpgm9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfuVU0eTcy89y8dURoKf62HzNCh1jOz40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149840923225-10u0nlcnqmstsovq8jfh1muec5dpgm9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

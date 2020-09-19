@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu4nav">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_packs"
+            android:title="Paquetes" />
+
+        <item
+            android:id="@+id/netflixpaqs"
+            android:icon="@drawable/nlogo"
+            android:title="Paquetes con Neflix" />
+
+        <item
+            android:id="@+id/amazonpaqs"
+            android:icon="@drawable/amazonlogo"
+            android:title="Paquetes con Prime Video" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_content"
+            android:title="Contenidos" />
+
+        <item
+            android:id="@+id/nav_info4copy"
+            android:icon="@drawable/ic_info"
+            android:title="Acerca de"
+            />
+    </group>
+</menu>

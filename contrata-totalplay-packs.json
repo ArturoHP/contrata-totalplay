@@ -1,0 +1,86 @@
+{
+  "avisos" : {
+    "Ejemplo 1" : {
+      "imagen" : "https://xlive-assets.s3.amazonaws.com/production/uploads/attachment/file/76947/Mobile_RegresoaClases_Tripleplay10_31Agosto.jpg",
+      "nombrepaquete" : "No se cual es xd"
+    },
+    "Ejemplo 2" : {
+      "imagen" : "https://xlive-assets.s3.amazonaws.com/production/uploads/attachment/file/74653/Mobile_Tripleplay_Junio_MTY.jpg",
+      "nombrepaquete" : "Diviertete +"
+    }
+  },
+  "paquetes" : {
+    "Ejemplo 1" : {
+      "color" : "#b4b4b4",
+      "descuentoendinero" : "$20",
+      "nombredelpaquete" : "Inicial",
+      "numeromegas" : "30 MEGAS",
+      "preciodelistados" : "Precio de lista: $489",
+      "preciodelistauno" : "Precio de lista: $509",
+      "preciodeprontopagodos" : "$439",
+      "precioprontopagouno" : "$529",
+      "recibessincosto" : "Recibe sin costo x 30 días",
+      "textoparawifi" : "30 Mbps x 30 dias"
+    },
+    "Ejemplo 2" : {
+      "color" : "#f0c069",
+      "descuentoendinero" : "$20",
+      "nombredelpaquete" : "Diviértete",
+      "numeromegas" : "DOBLE DE MEGAS",
+      "preciodelistados" : "Precio de lista: $559",
+      "preciodelistauno" : "Precio de lista: $579",
+      "preciodeprontopagodos" : "$509",
+      "precioprontopagouno" : "$529",
+      "recibessincosto" : "Recibe sin costo x 3 meses",
+      "textoparawifi" : "30 Mbps x 30 dias"
+    },
+    "Ejemplo 3" : {
+      "color" : "#f4b000",
+      "descuentoendinero" : "$20",
+      "nombredelpaquete" : "Diviértete +",
+      "numeromegas" : "DOBLE DE MEGAS",
+      "preciodelistados" : "Precio de lista: $629",
+      "preciodelistauno" : "Precio de lista: $649",
+      "preciodeprontopagodos" : "$579",
+      "precioprontopagouno" : "$599",
+      "recibessincosto" : "Recibe sin costo x 3 meses",
+      "textoparawifi" : "80 Mbps"
+    },
+    "Ejemplo 4" : {
+      "color" : "#96c8e2",
+      "descuentoendinero" : "$40",
+      "nombredelpaquete" : "Emociónate",
+      "numeromegas" : "DOBLE DE MEGAS",
+      "preciodelistados" : "Precio de lista: $779",
+      "preciodelistauno" : "Precio de lista: $819",
+      "preciodeprontopagodos" : "$699",
+      "precioprontopagouno" : "$739",
+      "recibessincosto" : "Recibe sin costo x 3 meses",
+      "textoparawifi" : "300 Mbps"
+    },
+    "Ejemplo 5" : {
+      "color" : "#63b9dc",
+      "descuentoendinero" : "$60",
+      "nombredelpaquete" : "Emociónate +",
+      "numeromegas" : "275 canales (160 HD) x 30 dias de prueba",
+      "preciodelistados" : "Precio de lista: $1079",
+      "preciodelistauno" : "Precio de lista: $1139",
+      "preciodeprontopagodos" : "$999",
+      "precioprontopagouno" : "$1059",
+      "recibessincosto" : "Recibe sin costo x 3 meses",
+      "textoparawifi" : "250 Mbps"
+    },
+    "Ejemplo 6" : {
+      "color" : "#7d54aa",
+      "descuentoendinero" : "$80",
+      "nombredelpaquete" : "Sorprendete +",
+      "numeromegas" : "275 canales (160 HD) x 30 dias de prueba",
+      "preciodelistados" : "Precio de lista: $1579",
+      "preciodelistauno" : "Precio de lista: $1659",
+      "preciodeprontopagodos" : "$1499",
+      "precioprontopagouno" : "$1579",
+      "recibessincosto" : "Recibe sin costo x 3 meses",
+      "textoparawifi" : "250 Mbps"
+    }
+  }
+}
